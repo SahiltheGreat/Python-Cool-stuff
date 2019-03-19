@@ -36,7 +36,7 @@ if x["cod"] != "404":
 					str(current_temperature) +
 		"\n Atmospheric pressure (in hPa unit) = " +
 					str(current_pressure) +
-		"\n Humidity (in percentage) = " +
+		"\n Humidity (in %) = " +
 					str(current_humidity) +
 		"\n Description = " +
 					str(weather_description)) 
