@@ -1,0 +1,20 @@
+import turtle
+def chessgrid(x,y,width,c):
+    turtle.penup()
+    turtle.pencolor('black')
+    turtle.fillcolor(c)
+    turtle.goto(x,y)
+    turtle.pendown()
+    turtle.begin_fill()
+    for x in range(4):
+        turtle.forward(40)
+        turtle.left(90)
+    turtle.end_fill()
+chessgrid(40,40,40,'green')
+chessgrid(80,80,80,'red')
+chessgrid(120,120,120,'blue')
+chessgrid(160,160,160,'yellow')
+chessgrid(0,80,40,'red')
+chessgrid(-40,120,40,'blue')
+chessgrid(-80,160,40,'yellow')
+turtle.exitonclick()
